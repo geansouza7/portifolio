@@ -1,5 +1,111 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: arial, sans-serif ;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+nav p {
+    font-size: 18px;
+    color: #888;
+}
+
+.img-principal {
+    width: 20%;
+    margin-top: 30px;
+
+}
+
+.biografia {
+ 
+    font-size: 15px;
+    
+    transform: translateY(-50%);
+    max-width: 35%;
+    padding: 20px;
+     
+}
+header {
+    margin-top: 10px;
+}
+
+header li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+article {
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-social {
+    margin-top: 10px;
+    display: flex;
+    justify-content:end;
+    list-style: none;
+
+
+
+
+}
+
+.lista-social li {
+    margin-bottom: 10px;
+}
+
+.lista-social img {
+    cursor: pointer;
+    max-width: 50px;
+}
+
+.lista {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.lista li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.lista img {
+    cursor: pointer;
+    max-width: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0
+}
+
+footer button {
+    padding: 8px 20px;
+    font-size: 18px;
+    background-color: #a09e92;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
